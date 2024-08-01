@@ -45,7 +45,7 @@ _sudo dnf remove kmod-nvidia-$(uname -r)_
 4. Upgrade the system with command: 
 _sudo dnf upgrade_
 That should install the newer kernel, and would also build the new modules for that kernel as well as building the modules for the current kernel.
-wait at least 5 minutes after the upgrade completes before rebooting!
+Wait for at least 5 minutes after the upgrade completes before rebooting!
 
 5. Verify the modules are rebuilt properly with command
 _sudo akmods --force --rebuild_
