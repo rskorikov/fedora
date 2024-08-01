@@ -1,4 +1,4 @@
-# Fedora. NVIDIA Drivers install from RPMFUSION Repo
+# Fedora. NVIDIA Drivers install from RPMFUSION Repo (Fallback to Nuoveau Error)
 Fedora post install / Nvidia drivers installation from RPMFUSION
 
 **1. Check NVIDIA GPU in Fedora:**
