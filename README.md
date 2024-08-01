@@ -15,8 +15,9 @@ _sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx l
 
 **4. Install RPM Fusion Repositories in Fedora:**
 
-_sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm_
+_sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm_
+
+_sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm_
 
 **5. Once the repositories are added, update the package repository cache:**
 
